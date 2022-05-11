@@ -1,5 +1,13 @@
 {
   "compilerOptions": {
+    "paths": {
+      "timers": [
+        "node_modules/timers-browserify"
+      ],
+      "stream": [
+        "node_modules/stream-browserify"
+      ]
+    },
     "baseUrl": "src"
   },
   "include": ["src"]
